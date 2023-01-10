@@ -1,0 +1,976 @@
+* {
+  box-sizing: border-box;
+  font-family: josefin Sans;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--primary-color);
+}
+
+
+.hero {
+    /* background-color: var(--primary-color); */
+    background-color: var(--primary-color);
+  
+  }
+  
+  .about {
+    background-color: var(--primary-color);
+  }
+  
+  .service {
+    background-color: var(--primary-color);
+  }
+  
+  .feedback {
+    background-color: var(--primary-color);
+  }
+
+  h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--secondary-color);
+}
+p {
+  color: var(--secondary-color);
+}
+
+.servList {
+  color: var(--primary-color);
+}
+
+h6 {
+  color: var(--secondary-color);
+}
+
+:root {
+  --primary-color: white;
+  --secondary-color: black;
+}
+
+.navbar {
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+
+  color: black;
+}
+
+.navbar-links {
+  height: 100%;
+}
+
+.navbar-links ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-links li {
+  list-style: none;
+}
+
+.navbar-links li a {
+  display: block;
+  text-decoration: none;
+  color: black;
+  padding: 1rem;
+}
+
+.btn {
+  border: 5px solid rgb(127, 0, 136);
+}
+button {
+  background-color: rgb(127, 0, 136);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 15px;
+  transform: 0.4s;
+}
+button {
+  transition: scale(1.2);
+}
+
+.icons span {
+  color: rgb(127, 0, 136);
+}
+
+.navbar-links li:hover {
+  background-color: #555;
+}
+
+.toggle-button {
+  position: absolute;
+  top: 0.75rem;
+  right: 1rem;
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30px;
+  height: 21px;
+}
+
+.toggle-button .bar {
+  height: 3px;
+  width: 100%;
+  background-color: black;
+  border-radius: 10px;
+}
+
+.hero {
+  width: 100%;
+
+  padding: 40px 100px;
+}
+
+.hero-pics {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  left: 400px;
+  bottom: 400px;
+  position: relative;
+}
+
+.hero2 {
+  position: relative;
+  bottom: 50px;
+}
+
+.hero4 {
+  position: relative;
+  bottom: 50px;
+}
+.col-md-4 h1 {
+  margin-top: 120px;
+}
+
+.hero-txt {
+  position: relative;
+  top: 50px;
+}
+
+#icon {
+  height: 30px;
+  width: 30px;
+  cursor: pointer;
+}
+
+.icons {
+  margin-top: 30px;
+}
+
+.about {
+  position: relative;
+  bottom: 300px;
+  background-color: var(--primary-color);
+  width: 100%;
+}
+
+.col-md-6 {
+  display: flex;
+  flex-direction: column;
+}
+.about-pics {
+  padding: 5px 50px;
+  width: 370px;
+  height: 300px;
+}
+
+.about .aboutTextLeft {
+  font-size: 18px;
+  padding: 0px 50px 20px;
+}
+.video {
+  background-image: url(../images/about3.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 430px;
+  height: 310px;
+  margin: 25px 90px 0px 0px;
+  position: relative;
+  left: 700px;
+  bottom: 550px;
+}
+
+.ytube-play {
+  position: relative;
+  bottom: 55.9%;
+  left: 40%;
+}
+
+.aboutTextRight {
+  font-size: 18px;
+  line-height: 30px;
+  margin: 20px 0px 0px;
+  position: relative;
+  left: 700px;
+  bottom: 550px;
+}
+.btn3 {
+  padding: 10px 20px;
+  width: 200px;
+  position: relative;
+  left: 700px;
+  bottom: 550px;
+}
+.overlay {
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  opacity: 50%;
+}
+
+.teacher {
+  position: relative;
+  bottom: 260px;
+  left: 270px;
+}
+
+#services {
+  position: relative;
+  bottom: 500px;
+}
+
+.service1 {
+  color: var(--secondary-color);
+  background-image: url(../images/services1.png);
+  background-position: center;
+  background-size: cover;
+  height: 600px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+.service3 {
+  background-image: url(../images/services2.png);
+  background-position: center;
+  background-size: cover;
+  height: 600px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  position: relative;
+  left: 910px;
+  bottom: 1200px;
+}
+.service2 {
+  background-color: rgba(116, 34, 150, 1);
+  height: 600px;
+  width: 100%;
+  position: relative;
+  left: 450px;
+  bottom: 600px;
+}
+.servInfo {
+  padding: 40px 100px;
+  height: 100vh;
+}
+.servInfo .container {
+  gap: 20px;
+}
+.servList li {
+  
+  color: var(--primary-color);
+  line-height: 48.9px;
+}
+
+.servoverlay1,
+.servoverlay2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.servoverlay1 h6,
+.servoverlay2 h6 {
+  /* color: var(--secondary-color); */
+  font-size: 26px;
+  text-align: center;
+  padding-right: 90px;
+}
+
+.container h5 {
+  font-weight: bold;
+}
+.container h6 {
+  font-weight: bold;
+  color: white;
+}
+
+.cancelIcon {
+  height: 35px;
+}
+
+.iconbox {
+  height: 60px;
+  width: 60px;
+  background-color: rgba(229, 229, 229, 1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px 0px 0px 83.2%;
+}
+
+ol {
+  position: relative;
+  top: 40px;
+}
+
+.feedback {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  bottom: 500px;
+}
+
+.Reviews p {
+  font-weight: 350;
+}
+
+.Reviews img {
+  width: 450px;
+}
+.miranda {
+  position: relative;
+  bottom: 550px;
+  margin-left: 700px;
+}
+.miranda img {
+  height: 350px;
+}
+.miranda h6 {
+  font-weight: 600;
+}
+.tendai h6 {
+  font-weight: 600;
+}
+
+.tendai {
+  position: relative;
+  top: 120px;
+  margin-left: 100px;
+}
+
+.socialheader span {
+  font-family: great vibes;
+  color: var(--secondary-color);
+  font-size: 45px;
+  font-weight: lighter;
+}
+.socialheader {
+  text-align: center;
+  position: relative;
+  top: 100px;
+}
+.socialheader h3 {
+  font-weight: 900;
+}
+.social-pics {
+  margin: 100px;
+}
+
+.sugarcane {
+  padding-top: 180px;
+}
+.family {
+  padding-top: 180px;
+}
+.waterfall {
+  padding-top: 180px;
+}
+
+.social {
+  position: relative;
+  bottom: 900px;
+}
+ 
+.dark-theme {
+    /*     height: 40px; 
+    margin: 0px 130px 0px 0px;
+    cursor: pointer; */
+    --primary-color: black;
+    --secondary-color: white;
+  }
+.footer1 {
+  background-color: rgba(116, 34, 150, 1);
+  width: 100%;
+  height: 40vh;
+  padding: 40px;
+  position: relative;
+  bottom: 900px;
+}
+.footerIcon {
+    background-color: var(--primary-color);
+  height: 60px;
+}
+.footerInfo {
+  display: flex;
+  color: var(--primary-color);
+  gap: 140px;
+  line-height: 35px;
+}
+.footer1 h5{
+  color:var(--primary-color);
+}
+.footer1 p{
+  color:var(--primary-color);
+}
+
+@media (max-width: 576px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .toggle-button {
+    display: flex;
+  }
+
+  .navbar-links {
+    display: none;
+    width: 100%;
+  }
+
+  .navbar-links ul {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .navbar-links ul li {
+    text-align: center;
+  }
+
+  .navbar-links ul li a {
+    padding: 0.5rem 1rem;
+  }
+
+  .navbar-links.active {
+    display: flex;
+  }
+}
+.dropdown {
+  position: relative;
+  margin: 1em;
+}
+.dropdown * {
+  box-sizing: border-box;
+}
+.select {
+  display: flex;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+.select-clicked {
+  transition: 0.4s;
+}
+.select:hover {
+  transform: scale(1.01);
+}
+.caret {
+  transition: 0.3s;
+  position: relative;
+  bottom: 8px;
+}
+.caret-rotate {
+  transform: rotate(180deg);
+}
+.servicesList {
+  list-style: none;
+  padding: 0.4em 0.5em;
+  background: darkgray;
+  border-radius: 5px;
+
+  color: var(--primary-color);
+  position: absolute;
+  width: 100%;
+  transform: translateX(50%);
+  opacity: 0;
+  display: none;
+  transition: 0.2s;
+}
+.servicesList-open {
+  display: block;
+  opacity: 1;
+}
+.selected {
+  color: var(--secondary-color);
+  font-size: 20px;
+  font-weight: 500;
+  position: relative;
+  bottom: 8px;
+  transition: 0.4s;
+  transition-property: var(--primary-color);
+
+  display: flex;
+}
+.selected:active {
+  /* color: var(--bg-color); */
+  background-color: var(--secondary-color);
+}
+
+#icons {
+  display: flex;
+  height: 30px;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) and (max-width: 1024px) {
+  .hero {
+    padding: 20px 50px;
+    width: 100%;
+  }
+  .navbar-links {
+    position: relative;
+  }
+  .brand-title img {
+    height: 30px;
+    left: 290px;
+  }
+
+  #icon {
+    height: 20px;
+    width: 20px;
+    position: relative;
+    top: 14px;
+    left: 10px;
+  }
+  .hero-pics {
+    width: 500px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    left: 90px;
+    bottom: 400px;
+    position: relative;
+  }
+  .hero-txt {
+    position: relative;
+    top: 300px;
+    width: 500px;
+  }
+  .btn {
+    position: relative;
+    left: 40px;
+    top: 3px;
+  }
+
+  .about {
+    position: relative;
+    top: 100px;
+    width: 100%;
+    padding: 0px;
+    height: 100vh;
+  }
+  .about h5 {
+    position: relative;
+    bottom: 50px;
+  }
+  .about-pics {
+    width: 250px;
+    position: relative;
+    bottom: 25px;
+    right: 48px;
+  }
+  .teacher {
+    left: 150px;
+    bottom: 150px;
+    position: relative;
+  }
+
+  .video {
+    width: 300px;
+    position: relative;
+    left: 360px;
+    bottom: 500px;
+  }
+  .btn3 {
+    position: relative;
+    left: 350px;
+    bottom: 500px;
+  }
+
+  .aboutTextRight {
+    position: relative;
+    left: 350px;
+    bottom: 500px;
+    font-size: 15px;
+  }
+  .about .aboutTextLeft {
+    padding: 0px;
+    font-size: 15px;
+  }
+  p {
+    font-size: 15px;
+  }
+
+  #services {
+    position: relative;
+    bottom: 100px;
+    align-items: center;
+    padding: 120px 70px;
+  }
+  .servInfo {
+    overflow-x: scroll;
+    overflow-y: hidden;
+  }
+
+  .servoverlay1 {
+    width: 300px;
+    position: relative;
+  }
+
+  .service1 {
+    width: 400px;
+  }
+  .service2 {
+    position: relative;
+    width: 400px;
+    left: 450px;
+    bottom: 600px;
+  }
+  .service3 {
+    position: relative;
+    width: 400px;
+    left: 900px;
+    bottom: 1200px;
+  }
+
+  .nextIcon {
+    left: 31px;
+    position: relative;
+  }
+
+  .miranda {
+    position: relative;
+    bottom: 480px;
+    right: 370px;
+    padding: 0px;
+  }
+
+  .miranda img {
+    width: 300px;
+    height: 300px;
+  }
+
+  .miranda-txt {
+    width: 400px;
+  }
+
+  .tendai img {
+    width: 300px;
+    height: 300px;
+  }
+
+  .tendai {
+    position: relative;
+    right: 100px;
+  }
+
+  .feedback {
+    position: relative;
+    bottom: 200px;
+    width: 100%;
+  }
+
+  .social {
+    position: relative;
+    bottom: 500px;
+    width: 100%;
+  }
+  .smile {
+    width: 100px;
+  }
+  .family {
+    width: 100px;
+  }
+  .xulgal {
+    width: 100px;
+  }
+  .guy {
+    width: 100px;
+  }
+  .sugarcane {
+    width: 100px;
+  }
+
+  .waterfall {
+    width: 100px;
+  }
+  .social-pics {
+    position: relative;
+    right: 50px;
+  }
+  .footer1 {
+    overflow-x: hidden;
+    overflow: hidden;
+    width: 100%;
+    bottom: 400px;
+    height: 33vh;
+  }
+  .border-bottom {
+    width: 50px;
+  }
+  .footerInfo img {
+    height: 20px;
+    color: black;
+  }
+  .footerInfo h5 {
+    font-size: 15px;
+    display: flex;
+    width: 100px;
+  }
+  .footerInfo p {
+    font-size: 12px;
+  }
+  .get {
+    position: relative;
+    right: 150px;
+  }
+  .help {
+    position: relative;
+    right: 80px;
+  }
+  .copy {
+    width: 100px;
+  }
+}
+
+@media (max-width: 576px) {
+  .hero {
+    padding: 20px 50px;
+    width: 100%;
+  }
+  .hero3 {
+    display: none;
+  }
+  .hero4 {
+    display: none;
+  }
+  .navbar-links {
+    position: relative;
+  }
+  .brand-title img {
+    height: 30px;
+    left: 290px;
+  }
+
+  #icon {
+    height: 20px;
+    width: 20px;
+    position: relative;
+    top: 14px;
+    left: 10px;
+  }
+  .hero-pics {
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    left: 2px;
+    bottom: 300px;
+    position: relative;
+  }
+  .hero-txt {
+    position: relative;
+    top: 500px;
+    width: 300px;
+  }
+  .btn {
+    position: relative;
+    left: 40px;
+    top: 3px;
+  }
+
+  .about {
+    position: relative;
+    top: 200px;
+    width: 100%;
+    padding: 0px;
+    height: 100vh;
+  }
+  .about h5 {
+    position: relative;
+    bottom: 50px;
+  }
+  .about-pics {
+    width: 250px;
+    position: relative;
+    bottom: 25px;
+    right: 48px;
+  }
+  .teacher {
+    left: 150px;
+    bottom: 150px;
+    position: relative;
+  }
+
+  .video {
+    width: 300px;
+    position: relative;
+    left: 5px;
+    bottom: 100px;
+  }
+  .btn3 {
+    position: relative;
+    left: 5px;
+    bottom: 100px;
+  }
+
+  .aboutTextRight {
+    position: relative;
+    left: 5px;
+    bottom: 100px;
+    font-size: 15px;
+  }
+  .about .aboutTextLeft {
+    padding: 0px;
+    font-size: 15px;
+  }
+  p {
+    font-size: 15px;
+  }
+
+  #services {
+    position: relative;
+    top: 500px;
+    align-items: center;
+  }
+
+  .servInfo {
+    overflow-x: scroll;
+    overflow-y: hidden;
+  }
+
+  .servoverlay1 {
+    width: 300px;
+    position: relative;
+  }
+
+  .service1 {
+    width: 400px;
+  }
+  .service2 {
+    position: relative;
+    width: 400px;
+    left: 450px;
+    bottom: 600px;
+  }
+  .service3 {
+    position: relative;
+    width: 400px;
+    left: 900px;
+    bottom: 1200px;
+  }
+
+  .nextIcon {
+    left: 31px;
+    position: relative;
+  }
+
+  .miranda {
+    position: relative;
+    top: 140px;
+    right: 700px;
+    padding: 0px;
+  }
+
+  .miranda img {
+    width: 300px;
+    height: 300px;
+  }
+
+  .miranda-txt {
+    width: 400px;
+  }
+
+  .tendai img {
+    width: 300px;
+    height: 300px;
+  }
+
+  .tendai {
+    position: relative;
+    right: 100px;
+  }
+
+  .feedback {
+    position: relative;
+    top: 500px;
+    width: 100%;
+  }
+
+  .social {
+    position: relative;
+    top: 600px;
+    width: 100%;
+  }
+  .smile {
+    width: 100px;
+  }
+  .family {
+    width: 100px;
+    display: none;
+  }
+  .xulgal {
+    width: 100px;
+    display: none;
+  }
+  .guy {
+    width: 100px;
+  }
+  .sugarcane {
+    width: 100px;
+  }
+
+  .waterfall {
+    width: 100px;
+    display: none;
+  }
+  .social-pics {
+    position: relative;
+    right: 50px;
+  }
+
+  .footer1 {
+    overflow-x: hidden;
+    overflow: hidden;
+    width: 100%;
+    top: 600px;
+    height: 40vh;
+  }
+  .border-bottom {
+    width: 50px;
+  }
+  .footerInfo img {
+    height: 20px;
+    color: black;
+  }
+  .footerInfo h5 {
+    font-size: 15px;
+    display: flex;
+    width: 100px;
+  }
+  .footerInfo p {
+    font-size: 12px;
+  }
+  .get {
+    position: relative;
+    right: 150px;
+  }
+  .help {
+    position: relative;
+    right: 80px;
+  }
+  .copy {
+    width: 100px;
+  }
+}
